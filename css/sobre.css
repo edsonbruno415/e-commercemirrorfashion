@@ -1,0 +1,87 @@
+body{
+    color:#333333;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande',  sans-serif;
+}
+.container{
+    margin: 0 auto;
+    width: 940px;
+}
+article p{
+    text-indent: 15px;
+    text-align: justify;
+    padding: 0 45px;
+}
+article p::first-letter{
+    font-size: 200%;
+    font-weight: bold;
+}
+header h1{
+    background-image: url(../img/sobre-background.jpg);
+    padding: 10px;
+}
+
+article h2{
+    border-bottom: 2px solid #333333;
+    margin-top: 30px;
+}
+
+article figure{
+    background-color: #F2EDED;
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 15px;
+    margin: 30px;
+}
+
+article figcaption{
+    font-style: italic;
+}
+#familia{
+    float: right;
+    margin: 0 0 10px 10px;
+}
+#centro-distribuicao{
+    margin: 0 auto;
+    width: 550px;
+}
+/*----------- Rodapé---------------*/
+footer{
+    background-image: url(../img/fundo-rodape.png);
+
+    clear: both;
+    padding: 20px 0px;
+}
+footer .container{
+    position: relative;
+}
+span{
+    color: white;
+    position: absolute;
+    top: 0;
+    font-size: 14px;
+}
+.social a{
+    height: 32px;
+    width: 32px;
+
+    display: block;
+    text-indent: 9999px;
+}
+.social a[href *= "facebook.com"]{
+    background-image: url(../img/facebook.png);
+}
+.social a[href *= "twitter.com"]{
+    background-image: url(../img/twitter.png);
+}
+.social a[href *= "plus.google.com"]{
+    background-image: url(../img/googleplus.png);
+}
+.social{
+    position: absolute;
+    right: 0;
+    top: 12px;
+}
+.social li{
+    float: left;
+    margin-left: 25px;
+}
